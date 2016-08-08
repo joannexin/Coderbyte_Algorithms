@@ -20,4 +20,3 @@ function LongestWord(sen) {
   });
   return longest;
 }
-console.log(LongestWord("I#$%#% love22 you"));
