@@ -12,8 +12,7 @@ function AlphabetSoup(str) {
 //FYI: sort() method only works for Alphabet sort. If you would like to sort
 //number, such as [1,23,4,89], you need to write your own sortNumber().
 function sortNumber(arr) {
-  arr = arr.sort(function(a, b) {
+  return arr.sort(function(a, b) {
     return a - b;
   })
-  return arr;
 }
